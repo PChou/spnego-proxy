@@ -1,0 +1,8 @@
+spnego-proxy
+*.rpm
+*.tar.gz
+.DS_Store
+.idea/
+profile*out
+go.sum
+myconfig.yml

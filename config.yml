@@ -1,0 +1,14 @@
+# krb5: the local path of the krb5.conf
+krb5:
+client:
+  # principal that used to login and request ticket
+  # tss or tss@HADOOP.COM
+  principal:
+  # the local path of the keytab of the principal
+  keytab:
+server:
+  # optional: user defined server principal name, if not set, HTTP/hostname@realm will be used
+  # principal:
+  # backend proxy to
+  upstream:
+  listen: :5000
